@@ -1,0 +1,24 @@
+=== If Else exercise from Google ===
+
+def calculate_storage(filesize):
+
+ block_size = 4096
+
+ full_blocks = filesize//4096
+ print(full_blocks)
+
+ partial_block_remainder = filesize % 4096
+ print(partial_block_remainder)
+
+ if partial_block_remainder > 0:
+     return 4096*(full_blocks+1)
+ else:
+     return full_blocks * 4096
+
+print(calculate_storage(12288))
+
+===========================================
+
+output: 3
+        0
+        12288
