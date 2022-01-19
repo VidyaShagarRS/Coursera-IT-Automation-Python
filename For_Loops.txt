@@ -1,0 +1,19 @@
+(For Loops)
+
+values = [10 , 20, 30, 40, 50]
+sum= 0
+length= 0
+for value in values:
+     sum += value
+     length += 1
+     print(f"The sum value is: {str(sum)} & the length is: {str(length)}")
+
+========================================
+output: 
+The sum value is: 10 & the length is: 1
+The sum value is: 30 & the length is: 2
+The sum value is: 60 & the length is: 3
+The sum value is: 100 & the length is: 4
+The sum value is: 150 & the length is: 5
+
+=========================================
